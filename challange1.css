@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+}
+#box {
+  border: 5px solid black;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(236, 238, 238);
+}
+
+#link {
+  color: black;
+}
+#link:hover #link:active {
+  text-decoration: none;
+}
+#b1 {
+  background: #000;
+  color: aliceblue;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+#b1:hover {
+  background-color: white;
+  color: black;
+  border: none;
+}
+ul li {
+  list-style: square;
+}
+.price {
+  font-size: 24px;
+}
+.Shiping {
+  font-size: 12px;
+  font-weight: bold;
+  color: #777;
+  text-transform: uppercase;
+}
+.detailTitle {
+  text-transform: uppercase;
+  font-size: 16px;
+}

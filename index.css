@@ -1,7 +1,132 @@
-h1 {
-  color: rgb(53, 10, 154);
-  font-size: 26px;
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
   font-family: sans-serif;
+  color: #444;
+  border-top: #1098ad solid 10px;
+}
+article {
+  margin-bottom: 60px;
+}
+.main-header {
+  padding: 20px 40px;
+  background-color: #f7f7f7;
+  margin-bottom: 60px;
+  height: 80px;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: #1098ad solid 5px;
+  border-bottom: #1098ad solid 5px;
+  padding: 50px 0;
+  width: 500px;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #1098ad;
+}
+h1 {
+  font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
 }
+
+h2 {
+  font-size: 40px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.post-header {
+  margin-bottom: 40px;
+}
+h3 {
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0;
+}
+
+#author {
+  font-style: italic;
+}
+#copyright {
+  font-size: 16px;
+}
+.bullet {
+  list-style: none;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+/* Styling links */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: #1098ad;
+}
+a:hover {
+  color: blueviolet;
+  text-decoration: underline blueviolet;
+  font-weight: bold;
+}
+a:active {
+  background-color: burlywood;
+  font-style: italic;
+}
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.post-img {
+  width: 100%;
+  height: auto;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+/* #copyright {
+  color: blueviolet;
+}
+.text {
+  color: yellow;
+}
+.copyright {
+  color: blue;
+}
+footer p {
+  color: burlywood !important;
+} */

@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+#box {
+  border: 5px solid black;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(236, 238, 238);
+  padding: 15px 0;
+}
+
+#link {
+  color: black;
+}
+#link:hover #link:active {
+  text-decoration: none;
+}
+
+#b1 {
+  background: #000;
+  color: aliceblue;
+  margin-top: 5px;
+  text-transform: uppercase;
+  padding: 15px;
+  width: 100%;
+  border-top: 5px solid black;
+}
+#b1:hover {
+  background-color: white;
+  color: black;
+}
+ul li {
+  list-style: square;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.price {
+  font-size: 24px;
+}
+.Shiping {
+  font-size: 12px;
+  font-weight: bold;
+  color: #777;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.detailTitle {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.container {
+  width: 825px;
+  margin: 50px auto;
+}
+.shoe-img {
+  width: 300px;
+  height: auto;
+  margin: 20px 0;
+}
+p {
+  margin-bottom: 20px;
+}
