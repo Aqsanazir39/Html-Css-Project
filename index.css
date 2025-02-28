@@ -2,10 +2,12 @@
   padding: 0;
   margin: 0;
 }
+/* PAGE SECTION */
 body {
   font-family: sans-serif;
   color: #444;
   border-top: #1098ad solid 10px;
+  position: relative;
 }
 article {
   margin-bottom: 60px;
@@ -23,6 +25,7 @@ aside {
   padding: 50px 0;
   width: 500px;
 }
+/* SMALLER ELEMENT */
 h1,
 h2,
 h3,
@@ -39,6 +42,23 @@ h2 {
   font-size: 40px;
   font-style: italic;
   margin-bottom: 20px;
+  position: relative;
+}
+h2::after {
+  content: "TOP";
+  background-color: gold;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  padding: 5px 10px;
+  top: -10px;
+  right: -25px;
+}
+nav {
+  font-size: 16px;
+  text-align: center;
 }
 .post-header {
   margin-bottom: 40px;
@@ -117,7 +137,23 @@ ol {
 .container {
   width: 800px;
   margin: 0 auto;
+  /* position: relative; */
 }
+/* nav a:link {
+  background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+  display: block;
+} */
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+nav a:link:last-child {
+  margin-right: 0;
+}
+/* RESOLVING CONFLICTS */
 /* #copyright {
   color: blueviolet;
 }
@@ -130,3 +166,11 @@ ol {
 footer p {
   color: burlywood !important;
 } */
+button {
+  font-size: 22;
+  padding: 20px;
+  cursor: pointer;
+  bottom: 50px;
+  right: 50px;
+  position: absolute;
+}
